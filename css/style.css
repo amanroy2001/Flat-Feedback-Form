@@ -1,0 +1,136 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+a{text-decoration:none;}
+.txt-rt{text-align:right;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{	vertical-align:baseline;}
+.vertical-top{	vertical-align:top;}
+nav.vertical ul li{	display:block;}
+nav.horizontal ul li{	display: inline-block;}
+img{max-width:100%;}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	    background: url('../images/1.jpg') no-repeat 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header {
+    text-align: center;
+    margin-top: 4em;
+}
+.header h1 {
+    font-size: 3.5em;
+    color: black;
+    font-weight: 400;
+}
+.main-section {
+    width: 40%;
+    margin: 3em auto 0;
+	text-align: center; 
+}
+.login-form {
+    background: rgba(55, 64, 90, 0.45);
+    padding: 2em 3em;
+    border-radius: 0px;
+}
+.login-form h2 {
+    font-size: 1.6em;
+    text-transform: capitalize;
+    color: black;
+    text-align: left;
+}
+.login-form form {
+    margin-top: 2em;
+}
+.login-form ul {
+    padding: 0;
+    margin: 0 0 22px 0;
+}
+.login-form ul li.text-info {
+    width: 34%;
+    color: #eee;
+    font-size: 1em;
+    font-weight: 400;
+    float: left;
+    padding-top: 0;
+    text-align: right;
+    margin-right: 0.5em;
+	padding: 9px 0;
+}
+.login-form form input[type="text"],.login-form form textarea {
+    width: 61%;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 400;
+    border: 1px solid  #e6e6e6;
+    outline: none;
+    color: #222;
+	float: left;
+	background: #b4dbdc;
+}
+.login-form p {
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: left;
+    line-height: 1.8em;
+    color: black;
+}
+.login-form textarea{
+	height:120px;
+	resize:none;
+}
+.login-form input[type="submit"] {
+   font-size: 1em;
+    padding: .8em 1em;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background:#00132e;
+    color: #fff;
+    cursor: pointer;
+	width: 35%;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 0 3em;
+	float:right;
+}
+.forgot {
+    font-size: .85em;
+    color: #777;
+}
+.login-form input[type="submit"]:hover {
+    background: #000;
+	 transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.footer {
+    text-align: center;
+    padding: 3em 0;
+}
+.footer p {
+    font-size: 0.9em;
+    color: #fff;
+    margin: 0px;
+	line-height:1.8em;
+}
+.footer p a {
+    color: black;
+}
+.footer p a:hover {
+    color: #fff;
+	text-decoration:underline;
+}
